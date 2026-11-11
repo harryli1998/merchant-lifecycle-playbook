@@ -1,0 +1,10 @@
+{
+  "window_days": 30,
+  "onboarding_days": 30,
+  "growth_rate": 0.1,
+  "growth_active_days": 10,
+  "stable_rate": 0.2,
+  "risk_decline": -0.5,
+  "risk_active_days": 5,
+  "thresholds": {"grocery": 300, "flowers": 900, "services": 600}
+}
