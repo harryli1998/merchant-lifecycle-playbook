@@ -18,7 +18,7 @@ ACTIONS = {
 def write_csv(path, rows, fields=None):
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open('w', newline='') as f:
-        writer = csv.DictWriter(f, fieldnames=fields or list(rows[0]))
+        writer = csv.DictWriter(f, fieldnames=fields or list(rows[0]), lineterminator='\n')
         writer.writeheader(); writer.writerows(rows)
 
 def read_csv(path):
