@@ -1,0 +1,6 @@
+name,decline,active_days,flag_overlap,observations,unique_accounts,outcomes,flagged,true_positive,false_positive,false_negative,precision,recall,base_rate
+Spend-only baseline,-0.5,,0.3407,667,253,25,91,22,69,3,0.2418,0.88,0.0375
+Lifecycle rule,-0.5,5,1.0,667,253,25,31,20,11,5,0.6452,0.8,0.0375
+Looser decline,-0.3,5,1.0,667,253,25,31,20,11,5,0.6452,0.8,0.0375
+Stricter decline,-0.7,5,1.0,667,253,25,31,20,11,5,0.6452,0.8,0.0375
+Wider activity band,-0.5,10,0.4133,667,253,25,75,22,53,3,0.2933,0.88,0.0375

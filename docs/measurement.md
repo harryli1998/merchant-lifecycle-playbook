@@ -1,15 +1,23 @@
-# From labels to evidence
+# Three different questions require three kinds of evidence
 
-## Label validation
+## 1. Is the data and segmentation reliable?
 
-Review coverage, Observe share, stage distributions by category, and adjacent-stage changes. Sample accounts from each stage and ask operators to review reasons without seeing a suggested action first. Compare risk labels with behavior in a subsequent held-out period. Report observation coverage and sample sizes. Stability is useful, but a diagonal transition matrix is not proof of validity.
+Audit full daily coverage, duplicate/unknown accounts, invalid amounts, account-age definitions and the treatment of zero history. Sample every state with operators. Compare transitions by period and business group; inspect unusual jumps. Stable low-value accounts must not be called unhealthy simply because they are small.
 
-For a six-month backtest, retain at least one preceding feature window and an additional future outcome window where needed. This demo provides nine 30-day periods; it reproduces the mechanics, not the original dataset or a validated predictive backtest. No future-outcome validation or threshold optimization is claimed.
+The implementation has deterministic generation and tests that alter future events without changing earlier features. These establish computation behavior, not business validity.
 
-## Intervention evaluation
+## 2. Does a flag identify a subsequent behavior?
 
-Freeze eligibility and stage before assignment. Randomize eligible accounts within stage and important business strata into treatment and holdout; if one salesperson's behavior affects multiple accounts, consider cluster assignment and corresponding analysis. Define the assignment unit, outcome window, detectable effect, sample size, exposure logging and stopping rule before launch.
+The demo compares a spend-only baseline with lifecycle rules and threshold alternatives on the same population. Features in windows 9–11 precede outcomes in 10–12; currently inactive and incomplete-history observations are excluded. Outcome is next-window zero spend. Report eligible observations, distinct accounts, base rate, flags, true/false positives, precision and recall. Empty denominators are N/A.
 
-Primary outcome: contribution profit per randomized eligible account, or a clearly specified revenue measure where costs are unavailable. Include incentive and service costs. Guardrails: complaints, unsubscribes, advertiser efficiency and account health. Analyze by original assignment (intention to treat), including accounts that were not successfully reached. Report uncertainty and allocation counts, and avoid repeatedly stopping on significance.
+The dataset is synthetic and includes a deliberately generated warning-before-stop mechanism. The split illustrates temporal evaluation; it does not provide independently validated real-world performance. No threshold is fitted to the held-out slice. Comparing variants there does not create a new holdout for a chosen winner. Repeated account-windows are correlated; no independent-binomial significance claim is made. Real deployment needs an untouched future period, realistic operating constraints, label/cost review and uncertainty estimation that respects account/cluster dependence.
 
-A stage transition, revenue increase after launch or before/after comparison alone does not establish incremental impact. Do not publish simulated uplift as measured performance. The historical project notes describe an approximately 3% post-adoption revenue increase; this repository does not reproduce, independently verify or causally attribute that figure.
+First-spend continuation is a separate descriptive diagnostic: positive spend on days 30–59 after first spend, with all 60 days observed. Exclude censored accounts from its denominator. Compare channel/category mix before attributing changes to the onboarding experience.
+
+## 3. Does the proposed action create incremental value?
+
+Freeze eligibility and stage before assignment. Randomize eligible accounts within stage and key strata into intervention and holdout. Where account managers create spillovers, consider cluster assignment and cluster-aware analysis. Predefine outcome window, detectable effect, sample size, stopping rule, assignment unit and cost logging.
+
+Primary outcome: contribution profit per randomized eligible account, or an explicitly defined revenue metric if costs are unavailable. Include incentives and service costs. Guardrails: advertiser efficiency, complaints, unsubscribes and account health. Analyze original assignment (intention to treat), including accounts not reached. Report uncertainty and allocation/exposure counts. Do not stop opportunistically on significance.
+
+A stage improvement, reduced alert volume, historical spend coverage or before/after revenue increase is not incremental return. The original project's approximately 3% post-adoption increase, described in personal retrospective notes, is not reproduced or causally attributed by this repository.

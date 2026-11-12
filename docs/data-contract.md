@@ -1,13 +1,39 @@
-# Data contract
+# Data contract and exact definitions (v2)
 
-`accounts.csv`: unique `account_id`, `category`, and ISO `joined` date. The onboarding clock starts at account creation in this demo; explicitly decide whether activation should use first spend instead for your business.
+## Inputs
 
-`daily_value.csv`: exactly one row per account and date from max(joined, coverage.start) through coverage.end, including explicit zero-value rows. Fields: `account_id`, ISO `date`, finite nonnegative `value`. Value means advertiser spend in one currency, not platform net revenue, profit, or advertiser ROI. Active days count positive-value dates.
+`accounts.csv`: unique `account_id`, `category`, `channel`, and ISO `joined` date. Supported demo categories: Grocery, Flowers, Services. Channel is an acquisition source, not a quality score. The synthetic incumbent group is called Established. Each account remains observable after joining.
 
-`coverage.json`: inclusive dates with complete observed data. Missing rows fail rather than silently becoming inactivity. This demo assumes accounts remain observable after joining; production must model closures, pauses, data outages, timezone and late-arriving events explicitly. Refunds and multiple currencies require a preprocessing policy; negative values are rejected here.
+`daily_value.csv`: exactly one row for every account-date from max(joined, coverage.start) through coverage.end, including explicit zero values. Fields: `account_id`, ISO `date`, and finite nonnegative `value`. Value is advertiser spend in one synthetic currency, not platform revenue, contribution profit or advertiser return. Activity means a positive-spend day. Negative values, unknown IDs, duplicate rows, rows outside coverage/account lifetime, missing days and unknown categories fail.
 
-`config.json`: illustrative category thresholds, not calibrated estimates. The original approach also considered competitive intensity; this demo implements category only. Extend grouping only when there is enough historical support, and define a fallback for sparse groups. Unknown categories fail explicitly.
+`coverage.json`: inclusive start/end dates representing a complete observation period. Do not use this contract if zero and missing cannot be distinguished. Explicit preprocessing is required for refunds, multi-currency accounts, time zones, late arrivals, account closures, consent and tracking outages. A join date later than the last full snapshot is legitimately absent from that snapshot.
 
-Windows are consecutive, non-overlapping 30-day periods anchored to coverage.start. Each snapshot includes its ending date. A comparable prior window requires both full coverage and account existence at its beginning. Historical snapshots never read later events. Historical backtests need threshold versions fitted only on information available at the time; the demo uses a fixed illustrative config, not a fitted model.
+`config.json`: illustrative windows and thresholds, not fitted estimates. `value_thresholds` are separate from lifecycle labels. Sparse grouping fallback and competitive-intensity segmentation are not implemented. Account age begins at creation, not first spend; first-spend cohort age is a separate clock.
 
-For SaaS or retail, redefine the value and meaningful-activity signals and window lengths; do not reuse advertising thresholds unchanged. Keep lifecycle, customer value and predicted treatment benefit separate.
+## Historical snapshot
+
+Fixed non-overlapping 30-day windows are anchored to coverage.start, inclusive of each ending date. Incomplete trailing windows are omitted. A prior value exists only when the entire preceding window is inside coverage and the account existed at its start. Partial current windows are allowed for new accounts and identified by tenure. No future event enters a snapshot feature.
+
+First/last observed spend are computed through the snapshot date. For incumbents created before coverage, first *observed* spend is not necessarily their first-ever spend. They are excluded from first-spend cohorts; the action list's account-age condition prevents them from being treated as newly activated.
+
+## Next-window continuation
+
+For accounts created within coverage, day 0 is the first observed positive-spend date. Outcome: at least one positive-spend day during days 30–59 inclusive. Eligibility: observation coverage through day 59. First-spend cohorts are 30-day bins from coverage.start. Censored accounts remain in first-spender counts but not in the rate denominator; zero eligible accounts return null/N/A, not zero retention. An account that never spends is not in these cohorts, so this does **not** estimate signup-to-first-spend conversion. The generator makes every account spend once; that is a narrative assumption.
+
+Compare C01–C05 and C06–C10, each with 150 fully observed first spenders in this seed. Never pool rows across both `All` and category/channel detail, or you will double-count accounts. The page selects exactly one category and one channel aggregation.
+
+## Lifecycle and value
+
+Rules are sequential: Onboarding (<30 days); Observe for missing comparable prior; Inactive for zero current spend; Observe for zero prior; At-risk (decline >50%, <5 active days); Growth (>10% growth, >10 active days); Stable (absolute change <20%); otherwise Observe. Strict inequalities are intentional. Stable has no value minimum. Higher/Lower value tier is current spend relative to the account category's threshold. Neither value nor state identifies intervention benefit.
+
+## Action eligibility and capacity
+
+Activation: first observed spend 14–59 days ago, account age ≤65 days, no spend for ≥7 days. Retention: positive-spend At-risk accounts, unless already eligible for Activation. Deduplicate accounts; sort Activation before Retention, then descending max(current, comparable prior) spend, then account ID. If prior is unavailable, reference spend is current only; it may understate new-account history. This is a policy to review, not an optimized ranking.
+
+Capacity selects the first N after category/motion filtering. Reference-spend coverage divides selected reference spend by all filtered candidates' reference spend. A zero denominator is N/A. It is not expected recovery, causal revenue at risk or ROI. Ownership/status fields are placeholders for operator review. No outreach is sent.
+
+## Validation and transitions
+
+Risk evaluation uses feature windows 9–11 and outcomes in windows 10–12. Both current and comparable prior spend must be positive. Outcome: next window's total spend is zero. The same eligible account-windows are used for every rule. Repeated accounts are correlated. No new threshold is chosen by optimizing the evaluation slice. Sensitivity variants compare decline thresholds -30/-50/-70% and activity caps 5/10; the simple baseline ignores activity. Jaccard overlap compares each flagged set with the lifecycle rule, including window date in the key.
+
+Transitions pool every pair of adjacent snapshots for the same account. New accounts enter only after a previous snapshot exists. The demo has no closures or outages. Row percentages and overall switch rate are descriptive, not proof of label quality or individual churn probabilities.

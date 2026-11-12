@@ -1,0 +1,15 @@
+name: Verify synthetic diagnostic
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  reproducibility:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 -m unittest discover -s tests -v
+      - run: python3 lifecycle.py --generate-demo
+      - run: git diff --exit-code -- demo/data.json reports/

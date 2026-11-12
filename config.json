@@ -6,5 +6,5 @@
   "stable_rate": 0.2,
   "risk_decline": -0.5,
   "risk_active_days": 5,
-  "thresholds": {"grocery": 300, "flowers": 900, "services": 600}
+  "value_thresholds": {"Grocery": 600, "Flowers": 1600, "Services": 1100}
 }

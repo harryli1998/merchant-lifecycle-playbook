@@ -1,81 +1,83 @@
 # Merchant Lifecycle Playbook
 
-**Turn merchant activity into explainable growth and retention actions.**
+**First spend is a start. What happens next?**
 
-For advertising platforms and marketplaces whose operations teams need to decide which merchants to onboard, support, grow or investigate for retention risk.
+A reproducible diagnostic for advertising platforms and marketplaces: find weak advertiser continuation, challenge the segmentation rules, and build an account list that fits your team's capacity.
 
-![Synthetic lifecycle overview](reports/overview.svg)
+[Explore the interactive diagnostic](https://merchant-lifecycle-harry-li.shrewdnutmeg1.chatgpt.site) · [Read the case](reports/summary.md) · [Discuss a project](mailto:lihanyuan1998@gmail.com?subject=Merchant%20lifecycle%20diagnostic)
 
-This project reconstructs the analytical workflow of a merchant lifecycle program: segment accounts, review movements, assign actions, and design a credible measurement plan. All included account data and results are synthetic. It contains no employer data, proprietary code or verified uplift claim.
+> **Synthetic demonstration, not a client result.** All 480 merchants and their behavior are fabricated. The generator intentionally changes acquisition mix and introduces pre-stop warning behavior. Results illustrate an evaluation workflow; they do not validate real-world predictive performance, causal impact or a revenue uplift.
 
-## Start with the business decision
+## A three-minute walkthrough
 
-When every merchant receives similar outreach, account teams struggle to focus limited capacity. This playbook answers:
+1. **Diagnose.** In this constructed case, next-window spending falls from 75.3% (113/150) in first-spend cohorts C01–C05 to 46.7% (70/150) in C06–C10. Split by category and acquisition channel before blaming onboarding. Spend totals alone conceal changes in the new-advertiser journey.
+2. **Challenge the rule.** On 667 held-out account-windows, the spend-only baseline raises 91 alerts, including 69 false alerts. The lifecycle rule raises 31, including 11 false alerts, but misses 5 subsequent zero-spend windows rather than 3. Both use the same eligible population. These are synthetic descriptive results, not evidence of production effectiveness.
+3. **Make the decision operational.** Set a weekly capacity, inspect account histories and reasons, then export the selected review list. The latest snapshot has 29 candidates; a capacity of 20 leaves 9 waiting. The ordering is an explicit operating policy, not predicted treatment ROI.
+4. **Measure the action separately.** A correct risk label does not prove that a call or incentive helps. The [measurement plan](docs/measurement.md) specifies what an intervention pilot must establish.
 
-- Which new accounts need help reaching activation?
-- Which growing accounts merit an efficiency and expansion review?
-- Which established accounts show both spending and activity deterioration?
-- How can we tell whether differentiated outreach actually helped?
+## Run it locally
 
-Read the [sample diagnostic](reports/summary.md), inspect the [action queue](reports/action_queue.csv), or adapt the [data contract](docs/data-contract.md).
-
-## Run the demo
-
-Python 3.10+; no third-party packages or credentials required.
+Python 3.10+; no third-party Python dependencies or credentials.
 
 ```sh
 python3 lifecycle.py --generate-demo
 python3 -m unittest discover -s tests -v
+python3 -m http.server 8000 --directory demo
 ```
 
-The generation flag creates or overwrites local synthetic data. Full daily records and historical snapshots are generated locally rather than committed. To analyze adapted inputs without regenerating them, run `python3 lifecycle.py`. Keep private client data out of public forks.
+Open `http://localhost:8000` to use the interactive page. Open it through HTTP, not by double-clicking the HTML: it loads a local JSON file.
 
-Outputs include account-level snapshots with explanations, a latest-period action queue, adjacent-window transition counts and row shares, and a Markdown diagnostic. Regeneration is deterministic with seed 42.
+`--generate-demo` overwrites the local inputs with the deterministic seed-42 dataset. `python3 lifecycle.py` analyzes existing inputs. Real client inputs and derived reports must stay in a private workspace: `data/` and full historical snapshots are ignored, but the public demo JSON and sample reports are tracked. Do not commit a client-data run to this public repository.
 
-## How it works
+## What's included
 
-```mermaid
-flowchart LR
-    A[Define operating decision] --> B[Validate account and daily data]
-    B --> C[Compute historical features]
-    C --> D[Assign explainable states]
-    D --> E[Review transitions and samples]
-    E --> F[Assign capacity-aware actions]
-    F --> G[Measure incremental impact]
-    G --> A
-```
+| Artifact | Purpose |
+|---|---|
+| [lifecycle.py](lifecycle.py) | Generate synthetic inputs; validate coverage; derive historical features, cohorts, evaluation and actions |
+| [config.json](config.json) | Explicit illustrative rules and category-relative value tiers |
+| [demo/](demo/) | Buildless HTML/CSS/JS diagnostic with committed synthetic JSON |
+| [reports/summary.md](reports/summary.md) | Decision-oriented case with definitions, alternatives and limitations |
+| [reports/cohorts.csv](reports/cohorts.csv) | Eligible denominator, repeaters and censoring by cohort/category/channel |
+| [reports/validation.csv](reports/validation.csv) | Baseline comparison and threshold sensitivity, including flag-set overlap |
+| [reports/action_queue.csv](reports/action_queue.csv) | Latest eligible accounts with reasons, operating motion and transparent rank |
+| [reports/transitions.csv](reports/transitions.csv) | Pooled adjacent-state counts and row shares |
+| [tests/](tests/) | Rules, censoring, future-data leakage, determinism, data quality and queue policy |
 
-| State | Demo interpretation | First operational action |
-|---|---|---|
-| Onboarding | Less than 30 days since account creation | Diagnose activation blockers |
-| Growth | Spend growth above 10% and more than 10 active days | Check efficiency before scaling |
-| Mature | Spend above category threshold; change within ±20% | Review performance and expansion fit |
-| At-risk | Spend decline greater than 50% and fewer than 5 active days | Diagnose causes before incentives |
-| Observe | Insufficient comparable history or no rule matched | Review; avoid automatic incentives |
+Daily inputs and complete historical snapshots are generated locally. Current demo: 480 accounts, 360 days, 3 categories, 3,780 snapshots. Fixed 30-day windows are not calendar months.
 
-Priority is Onboarding → data-history checks → At-risk → Growth → Mature → Observe. Growth takes precedence when it overlaps Mature. These are illustrative implementation choices, not universal lifecycle definitions or recovered production rules. Mature is a high-spend, stable segment in this demo; a smaller stable account is not therefore unhealthy.
+## Explainable states, separate value
 
-## What transfers to other domains
+| State | Rule, in precedence order |
+|---|---|
+| Onboarding | Account age <30 days |
+| Observe | Comparable full prior window unavailable |
+| Inactive | Current spend is zero after history checks; not predicted churn |
+| Observe | Prior spend is zero; growth rate is undefined |
+| At-risk | Positive spend declined >50%, and <5 positive-spend days |
+| Growth | Spend growth >10%, and >10 positive-spend days |
+| Stable | Absolute spend change <20%, at any value level |
+| Observe | No rule matched |
 
-Keep the decision process, explainable features, historical validation and action-to-measurement loop. Replace the entity, meaningful behavior, value metric, cadence and segment thresholds. Marketplace sellers might use fulfilled orders and selling days; SaaS accounts might use meaningful product adoption and renewal milestones. A 30-day advertising window is not automatically appropriate for either.
+A separate Higher/Lower **value tier** compares current spend with the category threshold. It is not a health assessment. Unknown categories and missing daily observations fail explicitly. Historical features read only data available as of their snapshot.
 
-The original project experience informs the four-stage concept, category-aware thresholds, historical transitions and operator review. This implementation adds an explicit Observe bucket, deterministic precedence, data checks and reproducible synthetic inputs. See the [methodology in Chinese](docs/methodology.zh-CN.md), [data contract](docs/data-contract.md) and [measurement plan](docs/measurement.md).
+Activation outreach is a distinct operating motion: observed first spend 14–59 days ago, account age ≤65 days, and no spend for ≥7 days. Retention outreach uses currently spending At-risk accounts. Activation comes first; within each motion, rank by max(current, comparable prior) spend. Missing comparable prior spend is omitted from that maximum. The page shows unselected candidates as well as selected accounts and exports only the selected list.
 
-## Working with Harry
+## What transfers—and what needs redesign
 
-I help advertising and marketplace teams turn fragmented merchant data into a practical growth and retention workflow.
+The reusable method is **decision → data contract → behavioral states → validation → capacity-aware action → incremental measurement**. The original advertiser lifecycle experience informs this loop; this public implementation is newly written with synthetic data.
 
-A scoped diagnostic can include:
+For marketplace sellers, use meaningful order/fulfillment activity. For SaaS, consider adoption and renewal cadence. Recalibrate windows, operational states and value thresholds; advertising defaults are not universal. Review the [data contract](docs/data-contract.md), [Chinese methodology](docs/methodology.zh-CN.md), and [client scoping guide](docs/client-diagnostic.md).
 
-- A review of available data, business definitions and operating constraints.
-- An explainable segmentation prototype and account-level action list.
-- A lifecycle movement report and operator review session.
-- A measurement plan for testing the proposed interventions.
+## Work with Harry
 
-To discuss a project, [open a scoping issue](https://github.com/harryli1998/merchant-lifecycle-playbook/issues/new?template=project-inquiry.md) with your platform type, operating challenge and desired decision. Share only a high-level description publicly; do not attach customer data or confidential business figures. Scope, timeline and outcomes depend on data readiness and implementation ownership. No fixed revenue increase is promised.
+I help advertising and marketplace teams turn merchant activity into explainable growth and retention decisions. A scoped engagement can deliver a data-readiness review, cohort diagnostic, reviewed segmentation, account action list, operator walkthrough and measurement plan.
 
-## Limits
+**[Email lihanyuan1998@gmail.com](mailto:lihanyuan1998@gmail.com?subject=Merchant%20lifecycle%20diagnostic)** with your platform type, difficult operating decision and available data at a high level. No raw customer data is needed for an initial conversation. Scope and timing depend on readiness; no fixed revenue increase is promised. Use GitHub issues for technical questions.
 
-This is an analytical reference implementation, not a production CRM or a trained churn model. It does not send outreach, optimize incentives, model seasonality, implement account-owner permissions or measure treatment effects. The category thresholds and queue ordering need validation with your business before use.
+## Limits and validation
 
-Code and documentation are available under the MIT license. Synthetic data are supplied for demonstration under the same license.
+This is not a production CRM, a trained churn model, or an automated outreach system. It does not measure advertiser efficiency, model seasonality, infer reasons for inactivity, estimate treatment response, or implement access controls. The latest period has no observed future outcome. Correlated account-windows are not treated as independent experiments. The generator's built-in patterns make synthetic evaluation easier than real-world deployment.
+
+Seventeen Python tests cover rule boundaries, small stable accounts, missing/zero history, next-window boundaries, right censoring, future-event perturbation, queue ordering, missing/non-finite inputs and deterministic regeneration. Browser checks cover category/channel filters, rule comparison, zero/full capacity, account details, CSV export and a 390px mobile layout.
+
+MIT license. The data generator and included synthetic outputs are under the same license.

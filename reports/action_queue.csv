@@ -1,241 +1,30 @@
-account_id,as_of,category,tenure_days,value,previous_value,active_days,stage,reason,suggested_action,owner,status
-demo_0028,2025-09-27,flowers,220,84.05,215.84,4,At-risk,Value and activity fell below risk rules,"Diagnose performance, seasonality and service issues before incentives",Unassigned,Not started
-demo_0223,2025-09-27,flowers,413,75.46,158.06,4,At-risk,Value and activity fell below risk rules,"Diagnose performance, seasonality and service issues before incentives",Unassigned,Not started
-demo_0173,2025-09-27,services,205,58.45,125.46,4,At-risk,Value and activity fell below risk rules,"Diagnose performance, seasonality and service issues before incentives",Unassigned,Not started
-demo_0088,2025-09-27,flowers,283,46.18,211.01,2,At-risk,Value and activity fell below risk rules,"Diagnose performance, seasonality and service issues before incentives",Unassigned,Not started
-demo_0091,2025-09-27,flowers,179,21.18,55.51,1,At-risk,Value and activity fell below risk rules,"Diagnose performance, seasonality and service issues before incentives",Unassigned,Not started
-demo_0076,2025-09-27,flowers,336,17.21,45.35,1,At-risk,Value and activity fell below risk rules,"Diagnose performance, seasonality and service issues before incentives",Unassigned,Not started
-demo_0121,2025-09-27,flowers,234,17.05,38.65,1,At-risk,Value and activity fell below risk rules,"Diagnose performance, seasonality and service issues before incentives",Unassigned,Not started
-demo_0181,2025-09-27,flowers,177,15.01,101.54,1,At-risk,Value and activity fell below risk rules,"Diagnose performance, seasonality and service issues before incentives",Unassigned,Not started
-demo_0161,2025-09-27,services,322,14.3,50.54,1,At-risk,Value and activity fell below risk rules,"Diagnose performance, seasonality and service issues before incentives",Unassigned,Not started
-demo_0131,2025-09-27,services,178,13.44,32.07,1,At-risk,Value and activity fell below risk rules,"Diagnose performance, seasonality and service issues before incentives",Unassigned,Not started
-demo_0191,2025-09-27,services,253,12.68,39.17,1,At-risk,Value and activity fell below risk rules,"Diagnose performance, seasonality and service issues before incentives",Unassigned,Not started
-demo_0146,2025-09-27,services,174,11.61,29.37,1,At-risk,Value and activity fell below risk rules,"Diagnose performance, seasonality and service issues before incentives",Unassigned,Not started
-demo_0046,2025-09-27,flowers,393,0.0,71.02,0,At-risk,Value and activity fell below risk rules,"Diagnose performance, seasonality and service issues before incentives",Unassigned,Not started
-demo_0101,2025-09-27,services,262,0.0,36.64,0,At-risk,Value and activity fell below risk rules,"Diagnose performance, seasonality and service issues before incentives",Unassigned,Not started
-demo_0116,2025-09-27,services,261,0.0,50.17,0,At-risk,Value and activity fell below risk rules,"Diagnose performance, seasonality and service issues before incentives",Unassigned,Not started
-demo_0126,2025-09-27,grocery,162,0.0,7.09,0,At-risk,Value and activity fell below risk rules,"Diagnose performance, seasonality and service issues before incentives",Unassigned,Not started
-demo_0141,2025-09-27,grocery,290,0.0,5.02,0,At-risk,Value and activity fell below risk rules,"Diagnose performance, seasonality and service issues before incentives",Unassigned,Not started
-demo_0151,2025-09-27,flowers,406,0.0,43.1,0,At-risk,Value and activity fell below risk rules,"Diagnose performance, seasonality and service issues before incentives",Unassigned,Not started
-demo_0156,2025-09-27,grocery,412,0.0,11.92,0,At-risk,Value and activity fell below risk rules,"Diagnose performance, seasonality and service issues before incentives",Unassigned,Not started
-demo_0160,2025-09-27,flowers,61,5208.83,2998.26,25,Growth,Value growth and activity exceed growth rules,Review efficiency before recommending additional budget,Unassigned,Not started
-demo_0040,2025-09-27,flowers,206,4543.5,3089.26,22,Growth,Value growth and activity exceed growth rules,Review efficiency before recommending additional budget,Unassigned,Not started
-demo_0115,2025-09-27,flowers,118,4157.04,3493.44,21,Growth,Value growth and activity exceed growth rules,Review efficiency before recommending additional budget,Unassigned,Not started
-demo_0100,2025-09-27,flowers,391,4093.45,3468.88,19,Growth,Value growth and activity exceed growth rules,Review efficiency before recommending additional budget,Unassigned,Not started
-demo_0235,2025-09-27,flowers,349,3883.3,2691.86,19,Growth,Value growth and activity exceed growth rules,Review efficiency before recommending additional budget,Unassigned,Not started
-demo_0145,2025-09-27,flowers,191,3823.91,3462.57,18,Growth,Value growth and activity exceed growth rules,Review efficiency before recommending additional budget,Unassigned,Not started
-demo_0130,2025-09-27,flowers,376,3733.22,3281.44,16,Growth,Value growth and activity exceed growth rules,Review efficiency before recommending additional budget,Unassigned,Not started
-demo_0010,2025-09-27,flowers,186,3650.11,2500.29,17,Growth,Value growth and activity exceed growth rules,Review efficiency before recommending additional budget,Unassigned,Not started
-demo_0190,2025-09-27,flowers,193,3584.05,2622.36,17,Growth,Value growth and activity exceed growth rules,Review efficiency before recommending additional budget,Unassigned,Not started
-demo_0050,2025-09-27,services,284,3061.7,2318.18,21,Growth,Value growth and activity exceed growth rules,Review efficiency before recommending additional budget,Unassigned,Not started
-demo_0110,2025-09-27,services,145,3021.05,1801.04,22,Growth,Value growth and activity exceed growth rules,Review efficiency before recommending additional budget,Unassigned,Not started
-demo_0125,2025-09-27,services,387,2966.14,2373.12,21,Growth,Value growth and activity exceed growth rules,Review efficiency before recommending additional budget,Unassigned,Not started
-demo_0095,2025-09-27,services,112,2954.15,2170.17,21,Growth,Value growth and activity exceed growth rules,Review efficiency before recommending additional budget,Unassigned,Not started
-demo_0020,2025-09-27,services,343,2792.89,1533.02,20,Growth,Value growth and activity exceed growth rules,Review efficiency before recommending additional budget,Unassigned,Not started
-demo_0200,2025-09-27,services,202,2622.72,1992.02,19,Growth,Value growth and activity exceed growth rules,Review efficiency before recommending additional budget,Unassigned,Not started
-demo_0155,2025-09-27,services,233,2622.55,1817.37,18,Growth,Value growth and activity exceed growth rules,Review efficiency before recommending additional budget,Unassigned,Not started
-demo_0065,2025-09-27,services,149,2431.23,1964.67,18,Growth,Value growth and activity exceed growth rules,Review efficiency before recommending additional budget,Unassigned,Not started
-demo_0035,2025-09-27,services,358,2290.78,2011.07,17,Growth,Value growth and activity exceed growth rules,Review efficiency before recommending additional budget,Unassigned,Not started
-demo_0214,2025-09-27,flowers,142,1833.76,1340.07,23,Growth,Value growth and activity exceed growth rules,Review efficiency before recommending additional budget,Unassigned,Not started
-demo_0075,2025-09-27,grocery,79,1741.5,1274.92,25,Growth,Value growth and activity exceed growth rules,Review efficiency before recommending additional budget,Unassigned,Not started
-demo_0004,2025-09-27,flowers,398,1702.04,1342.32,22,Growth,Value growth and activity exceed growth rules,Review efficiency before recommending additional budget,Unassigned,Not started
-demo_0180,2025-09-27,grocery,141,1526.0,1027.0,21,Growth,Value growth and activity exceed growth rules,Review efficiency before recommending additional budget,Unassigned,Not started
-demo_0210,2025-09-27,grocery,275,1499.01,1187.94,21,Growth,Value growth and activity exceed growth rules,Review efficiency before recommending additional budget,Unassigned,Not started
-demo_0030,2025-09-27,grocery,259,1476.78,944.0,22,Growth,Value growth and activity exceed growth rules,Review efficiency before recommending additional budget,Unassigned,Not started
-demo_0124,2025-09-27,flowers,337,1465.11,1022.15,19,Growth,Value growth and activity exceed growth rules,Review efficiency before recommending additional budget,Unassigned,Not started
-demo_0184,2025-09-27,flowers,257,1450.99,1211.14,19,Growth,Value growth and activity exceed growth rules,Review efficiency before recommending additional budget,Unassigned,Not started
-demo_0165,2025-09-27,grocery,258,1409.4,1252.5,20,Growth,Value growth and activity exceed growth rules,Review efficiency before recommending additional budget,Unassigned,Not started
-demo_0187,2025-09-27,flowers,356,1364.48,1133.22,17,Growth,Value growth and activity exceed growth rules,Review efficiency before recommending additional budget,Unassigned,Not started
-demo_0157,2025-09-27,flowers,329,1283.63,1125.72,17,Growth,Value growth and activity exceed growth rules,Review efficiency before recommending additional budget,Unassigned,Not started
-demo_0199,2025-09-27,flowers,125,1279.07,1062.94,17,Growth,Value growth and activity exceed growth rules,Review efficiency before recommending additional budget,Unassigned,Not started
-demo_0120,2025-09-27,grocery,254,1246.23,1038.33,18,Growth,Value growth and activity exceed growth rules,Review efficiency before recommending additional budget,Unassigned,Not started
-demo_0135,2025-09-27,grocery,296,1158.97,1019.19,16,Growth,Value growth and activity exceed growth rules,Review efficiency before recommending additional budget,Unassigned,Not started
-demo_0139,2025-09-27,flowers,245,1145.99,897.0,16,Growth,Value growth and activity exceed growth rules,Review efficiency before recommending additional budget,Unassigned,Not started
-demo_0045,2025-09-27,grocery,380,1139.42,993.61,17,Growth,Value growth and activity exceed growth rules,Review efficiency before recommending additional budget,Unassigned,Not started
-demo_0224,2025-09-27,services,288,1136.07,992.09,23,Growth,Value growth and activity exceed growth rules,Review efficiency before recommending additional budget,Unassigned,Not started
-demo_0014,2025-09-27,services,164,1106.33,973.04,22,Growth,Value growth and activity exceed growth rules,Review efficiency before recommending additional budget,Unassigned,Not started
-demo_0212,2025-09-27,services,86,1096.2,912.27,22,Growth,Value growth and activity exceed growth rules,Review efficiency before recommending additional budget,Unassigned,Not started
-demo_0017,2025-09-27,services,112,1034.1,754.32,21,Growth,Value growth and activity exceed growth rules,Review efficiency before recommending additional budget,Unassigned,Not started
-demo_0044,2025-09-27,services,298,1011.02,760.9,20,Growth,Value growth and activity exceed growth rules,Review efficiency before recommending additional budget,Unassigned,Not started
-demo_0209,2025-09-27,services,387,977.84,823.91,20,Growth,Value growth and activity exceed growth rules,Review efficiency before recommending additional budget,Unassigned,Not started
-demo_0167,2025-09-27,services,66,965.61,782.62,19,Growth,Value growth and activity exceed growth rules,Review efficiency before recommending additional budget,Unassigned,Not started
-demo_0107,2025-09-27,services,261,957.43,769.29,19,Growth,Value growth and activity exceed growth rules,Review efficiency before recommending additional budget,Unassigned,Not started
-demo_0062,2025-09-27,services,116,954.97,793.92,19,Growth,Value growth and activity exceed growth rules,Review efficiency before recommending additional budget,Unassigned,Not started
-demo_0059,2025-09-27,services,243,952.55,754.77,20,Growth,Value growth and activity exceed growth rules,Review efficiency before recommending additional budget,Unassigned,Not started
-demo_0122,2025-09-27,services,218,925.98,732.49,19,Growth,Value growth and activity exceed growth rules,Review efficiency before recommending additional budget,Unassigned,Not started
-demo_0239,2025-09-27,services,208,893.5,472.35,18,Growth,Value growth and activity exceed growth rules,Review efficiency before recommending additional budget,Unassigned,Not started
-demo_0149,2025-09-27,services,310,885.7,787.22,17,Growth,Value growth and activity exceed growth rules,Review efficiency before recommending additional budget,Unassigned,Not started
-demo_0137,2025-09-27,services,170,863.34,751.16,17,Growth,Value growth and activity exceed growth rules,Review efficiency before recommending additional budget,Unassigned,Not started
-demo_0002,2025-09-27,services,293,835.0,695.41,16,Growth,Value growth and activity exceed growth rules,Review efficiency before recommending additional budget,Unassigned,Not started
-demo_0182,2025-09-27,services,329,823.07,743.02,17,Growth,Value growth and activity exceed growth rules,Review efficiency before recommending additional budget,Unassigned,Not started
-demo_0029,2025-09-27,services,61,742.58,540.64,15,Growth,Value growth and activity exceed growth rules,Review efficiency before recommending additional budget,Unassigned,Not started
-demo_0039,2025-09-27,grocery,228,611.06,449.16,24,Growth,Value growth and activity exceed growth rules,Review efficiency before recommending additional budget,Unassigned,Not started
-demo_0234,2025-09-27,grocery,213,589.89,457.71,23,Growth,Value growth and activity exceed growth rules,Review efficiency before recommending additional budget,Unassigned,Not started
-demo_0099,2025-09-27,grocery,265,565.59,426.41,22,Growth,Value growth and activity exceed growth rules,Review efficiency before recommending additional budget,Unassigned,Not started
-demo_0129,2025-09-27,grocery,278,557.54,391.03,22,Growth,Value growth and activity exceed growth rules,Review efficiency before recommending additional budget,Unassigned,Not started
-demo_0054,2025-09-27,grocery,61,549.81,452.09,22,Growth,Value growth and activity exceed growth rules,Review efficiency before recommending additional budget,Unassigned,Not started
-demo_0147,2025-09-27,grocery,231,542.66,433.56,22,Growth,Value growth and activity exceed growth rules,Review efficiency before recommending additional budget,Unassigned,Not started
-demo_0219,2025-09-27,grocery,190,529.42,431.24,21,Growth,Value growth and activity exceed growth rules,Review efficiency before recommending additional budget,Unassigned,Not started
-demo_0162,2025-09-27,grocery,105,511.1,422.61,21,Growth,Value growth and activity exceed growth rules,Review efficiency before recommending additional budget,Unassigned,Not started
-demo_0069,2025-09-27,grocery,158,493.33,426.27,20,Growth,Value growth and activity exceed growth rules,Review efficiency before recommending additional budget,Unassigned,Not started
-demo_0189,2025-09-27,grocery,289,491.3,392.29,19,Growth,Value growth and activity exceed growth rules,Review efficiency before recommending additional budget,Unassigned,Not started
-demo_0222,2025-09-27,grocery,218,490.1,400.65,19,Growth,Value growth and activity exceed growth rules,Review efficiency before recommending additional budget,Unassigned,Not started
-demo_0057,2025-09-27,grocery,278,477.56,379.51,18,Growth,Value growth and activity exceed growth rules,Review efficiency before recommending additional budget,Unassigned,Not started
-demo_0159,2025-09-27,grocery,262,463.94,411.54,19,Growth,Value growth and activity exceed growth rules,Review efficiency before recommending additional budget,Unassigned,Not started
-demo_0117,2025-09-27,grocery,190,454.4,411.69,19,Growth,Value growth and activity exceed growth rules,Review efficiency before recommending additional budget,Unassigned,Not started
-demo_0024,2025-09-27,grocery,136,411.69,308.3,16,Growth,Value growth and activity exceed growth rules,Review efficiency before recommending additional budget,Unassigned,Not started
-demo_0058,2025-09-27,flowers,218,256.46,144.19,11,Growth,Value growth and activity exceed growth rules,Review efficiency before recommending additional budget,Unassigned,Not started
-demo_0070,2025-09-27,flowers,119,4020.6,3660.86,20,Mature,Value exceeds category threshold and is stable,Review performance and suitable product expansion,Unassigned,Not started
-demo_0025,2025-09-27,flowers,115,3356.61,4076.09,17,Mature,Value exceeds category threshold and is stable,Review performance and suitable product expansion,Unassigned,Not started
-demo_0085,2025-09-27,flowers,331,3328.86,3166.18,16,Mature,Value exceeds category threshold and is stable,Review performance and suitable product expansion,Unassigned,Not started
-demo_0220,2025-09-27,flowers,352,3287.39,3519.43,16,Mature,Value exceeds category threshold and is stable,Review performance and suitable product expansion,Unassigned,Not started
-demo_0175,2025-09-27,flowers,335,3265.96,3152.52,17,Mature,Value exceeds category threshold and is stable,Review performance and suitable product expansion,Unassigned,Not started
-demo_0055,2025-09-27,flowers,134,3255.93,2979.37,16,Mature,Value exceeds category threshold and is stable,Review performance and suitable product expansion,Unassigned,Not started
-demo_0080,2025-09-27,services,375,2953.78,2823.67,21,Mature,Value exceeds category threshold and is stable,Review performance and suitable product expansion,Unassigned,Not started
-demo_0005,2025-09-27,services,346,2525.06,2443.46,18,Mature,Value exceeds category threshold and is stable,Review performance and suitable product expansion,Unassigned,Not started
-demo_0185,2025-09-27,services,260,2213.85,2440.59,16,Mature,Value exceeds category threshold and is stable,Review performance and suitable product expansion,Unassigned,Not started
-demo_0170,2025-09-27,services,207,2132.95,2556.96,16,Mature,Value exceeds category threshold and is stable,Review performance and suitable product expansion,Unassigned,Not started
-demo_0215,2025-09-27,services,271,2066.26,2375.03,15,Mature,Value exceeds category threshold and is stable,Review performance and suitable product expansion,Unassigned,Not started
-demo_0140,2025-09-27,services,97,2063.49,2057.49,15,Mature,Value exceeds category threshold and is stable,Review performance and suitable product expansion,Unassigned,Not started
-demo_0230,2025-09-27,services,113,2027.94,2342.38,14,Mature,Value exceeds category threshold and is stable,Review performance and suitable product expansion,Unassigned,Not started
-demo_0007,2025-09-27,flowers,277,1624.81,1568.88,21,Mature,Value exceeds category threshold and is stable,Review performance and suitable product expansion,Unassigned,Not started
-demo_0090,2025-09-27,grocery,84,1529.04,1429.46,21,Mature,Value exceeds category threshold and is stable,Review performance and suitable product expansion,Unassigned,Not started
-demo_0142,2025-09-27,flowers,150,1473.29,1521.34,20,Mature,Value exceeds category threshold and is stable,Review performance and suitable product expansion,Unassigned,Not started
-demo_0154,2025-09-27,flowers,182,1450.16,1595.13,18,Mature,Value exceeds category threshold and is stable,Review performance and suitable product expansion,Unassigned,Not started
-demo_0052,2025-09-27,flowers,226,1430.01,1331.31,19,Mature,Value exceeds category threshold and is stable,Review performance and suitable product expansion,Unassigned,Not started
-demo_0094,2025-09-27,flowers,63,1410.68,1375.34,18,Mature,Value exceeds category threshold and is stable,Review performance and suitable product expansion,Unassigned,Not started
-demo_0109,2025-09-27,flowers,294,1409.95,1560.86,18,Mature,Value exceeds category threshold and is stable,Review performance and suitable product expansion,Unassigned,Not started
-demo_0229,2025-09-27,flowers,376,1326.28,1508.03,17,Mature,Value exceeds category threshold and is stable,Review performance and suitable product expansion,Unassigned,Not started
-demo_0079,2025-09-27,flowers,417,1307.93,1515.92,19,Mature,Value exceeds category threshold and is stable,Review performance and suitable product expansion,Unassigned,Not started
-demo_0067,2025-09-27,flowers,181,1296.95,1181.08,18,Mature,Value exceeds category threshold and is stable,Review performance and suitable product expansion,Unassigned,Not started
-demo_0034,2025-09-27,flowers,367,1280.48,1445.57,18,Mature,Value exceeds category threshold and is stable,Review performance and suitable product expansion,Unassigned,Not started
-demo_0195,2025-09-27,grocery,202,1277.49,1366.21,18,Mature,Value exceeds category threshold and is stable,Review performance and suitable product expansion,Unassigned,Not started
-demo_0064,2025-09-27,flowers,381,1270.56,1410.24,18,Mature,Value exceeds category threshold and is stable,Review performance and suitable product expansion,Unassigned,Not started
-demo_0060,2025-09-27,grocery,382,1262.13,1331.26,18,Mature,Value exceeds category threshold and is stable,Review performance and suitable product expansion,Unassigned,Not started
-demo_0097,2025-09-27,flowers,92,1220.07,1214.02,16,Mature,Value exceeds category threshold and is stable,Review performance and suitable product expansion,Unassigned,Not started
-demo_0172,2025-09-27,flowers,117,1139.39,1333.1,15,Mature,Value exceeds category threshold and is stable,Review performance and suitable product expansion,Unassigned,Not started
-demo_0022,2025-09-27,flowers,290,1110.57,1297.97,15,Mature,Value exceeds category threshold and is stable,Review performance and suitable product expansion,Unassigned,Not started
-demo_0037,2025-09-27,flowers,360,1096.84,1063.45,15,Mature,Value exceeds category threshold and is stable,Review performance and suitable product expansion,Unassigned,Not started
-demo_0019,2025-09-27,flowers,152,1077.31,1309.53,15,Mature,Value exceeds category threshold and is stable,Review performance and suitable product expansion,Unassigned,Not started
-demo_0105,2025-09-27,grocery,131,1067.77,990.38,16,Mature,Value exceeds category threshold and is stable,Review performance and suitable product expansion,Unassigned,Not started
-demo_0150,2025-09-27,grocery,255,1017.0,1087.96,15,Mature,Value exceeds category threshold and is stable,Review performance and suitable product expansion,Unassigned,Not started
-demo_0015,2025-09-27,grocery,235,988.4,1065.91,14,Mature,Value exceeds category threshold and is stable,Review performance and suitable product expansion,Unassigned,Not started
-demo_0089,2025-09-27,services,105,918.09,950.04,19,Mature,Value exceeds category threshold and is stable,Review performance and suitable product expansion,Unassigned,Not started
-demo_0227,2025-09-27,services,332,917.78,1059.55,19,Mature,Value exceeds category threshold and is stable,Review performance and suitable product expansion,Unassigned,Not started
-demo_0074,2025-09-27,services,293,916.64,1004.11,19,Mature,Value exceeds category threshold and is stable,Review performance and suitable product expansion,Unassigned,Not started
-demo_0194,2025-09-27,services,305,910.62,865.78,18,Mature,Value exceeds category threshold and is stable,Review performance and suitable product expansion,Unassigned,Not started
-demo_0032,2025-09-27,services,203,862.17,908.77,17,Mature,Value exceeds category threshold and is stable,Review performance and suitable product expansion,Unassigned,Not started
-demo_0134,2025-09-27,services,334,856.98,1065.04,17,Mature,Value exceeds category threshold and is stable,Review performance and suitable product expansion,Unassigned,Not started
-demo_0179,2025-09-27,services,262,849.77,984.75,17,Mature,Value exceeds category threshold and is stable,Review performance and suitable product expansion,Unassigned,Not started
-demo_0077,2025-09-27,services,91,807.9,933.99,16,Mature,Value exceeds category threshold and is stable,Review performance and suitable product expansion,Unassigned,Not started
-demo_0197,2025-09-27,services,150,772.54,825.95,15,Mature,Value exceeds category threshold and is stable,Review performance and suitable product expansion,Unassigned,Not started
-demo_0152,2025-09-27,services,193,713.74,718.0,15,Mature,Value exceeds category threshold and is stable,Review performance and suitable product expansion,Unassigned,Not started
-demo_0009,2025-09-27,grocery,88,488.86,483.68,20,Mature,Value exceeds category threshold and is stable,Review performance and suitable product expansion,Unassigned,Not started
-demo_0087,2025-09-27,grocery,396,475.81,490.26,19,Mature,Value exceeds category threshold and is stable,Review performance and suitable product expansion,Unassigned,Not started
-demo_0144,2025-09-27,grocery,284,452.45,456.49,18,Mature,Value exceeds category threshold and is stable,Review performance and suitable product expansion,Unassigned,Not started
-demo_0192,2025-09-27,grocery,177,439.54,525.31,17,Mature,Value exceeds category threshold and is stable,Review performance and suitable product expansion,Unassigned,Not started
-demo_0102,2025-09-27,grocery,180,425.6,423.75,17,Mature,Value exceeds category threshold and is stable,Review performance and suitable product expansion,Unassigned,Not started
-demo_0114,2025-09-27,grocery,359,425.37,531.57,17,Mature,Value exceeds category threshold and is stable,Review performance and suitable product expansion,Unassigned,Not started
-demo_0072,2025-09-27,grocery,279,421.99,486.12,16,Mature,Value exceeds category threshold and is stable,Review performance and suitable product expansion,Unassigned,Not started
-demo_0084,2025-09-27,grocery,298,413.46,476.68,16,Mature,Value exceeds category threshold and is stable,Review performance and suitable product expansion,Unassigned,Not started
-demo_0207,2025-09-27,grocery,218,406.31,470.23,16,Mature,Value exceeds category threshold and is stable,Review performance and suitable product expansion,Unassigned,Not started
-demo_0177,2025-09-27,grocery,197,401.05,432.14,16,Mature,Value exceeds category threshold and is stable,Review performance and suitable product expansion,Unassigned,Not started
-demo_0174,2025-09-27,grocery,418,388.66,475.4,15,Mature,Value exceeds category threshold and is stable,Review performance and suitable product expansion,Unassigned,Not started
-demo_0042,2025-09-27,grocery,244,386.78,470.36,16,Mature,Value exceeds category threshold and is stable,Review performance and suitable product expansion,Unassigned,Not started
-demo_0132,2025-09-27,grocery,257,366.75,442.46,15,Mature,Value exceeds category threshold and is stable,Review performance and suitable product expansion,Unassigned,Not started
-demo_0205,2025-09-27,flowers,372,2663.74,3893.31,13,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0049,2025-09-27,flowers,140,1337.63,1740.35,18,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0112,2025-09-27,flowers,134,1204.96,1542.88,16,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0082,2025-09-27,flowers,391,1189.42,1641.83,17,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0232,2025-09-27,flowers,351,1128.75,1737.34,16,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0127,2025-09-27,flowers,404,1119.79,1589.98,15,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0169,2025-09-27,flowers,417,1052.84,1590.12,14,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0202,2025-09-27,flowers,173,1009.91,1447.41,14,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0092,2025-09-27,services,351,895.02,1136.84,17,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0225,2025-09-27,grocery,305,887.05,1213.7,13,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0217,2025-09-27,flowers,134,849.43,1125.63,11,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0104,2025-09-27,services,143,849.38,1139.58,17,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0119,2025-09-27,services,133,809.57,1289.52,15,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0164,2025-09-27,services,228,753.47,1006.13,15,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0000,2025-09-27,grocery,92,670.87,1067.01,11,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0047,2025-09-27,services,146,649.0,1131.77,14,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0204,2025-09-27,grocery,242,424.06,561.84,17,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0027,2025-09-27,grocery,188,391.55,500.74,17,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0012,2025-09-27,grocery,191,389.35,495.24,16,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0237,2025-09-27,grocery,373,381.81,487.17,16,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0133,2025-09-27,flowers,246,195.23,86.89,9,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0178,2025-09-27,flowers,334,187.79,154.14,8,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0073,2025-09-27,flowers,313,152.22,221.91,7,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0148,2025-09-27,flowers,349,149.35,196.96,7,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0188,2025-09-27,services,385,141.76,126.43,9,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0208,2025-09-27,flowers,252,138.33,93.14,6,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0023,2025-09-27,services,393,135.82,80.17,9,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0233,2025-09-27,services,71,135.65,86.59,9,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0103,2025-09-27,flowers,333,131.21,147.7,5,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0083,2025-09-27,services,279,121.45,43.53,8,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0013,2025-09-27,flowers,158,120.22,98.84,5,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0203,2025-09-27,services,378,116.94,144.98,8,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0193,2025-09-27,flowers,124,114.8,85.25,5,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0098,2025-09-27,services,217,110.13,74.95,7,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0008,2025-09-27,services,236,106.67,113.6,7,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0043,2025-09-27,flowers,237,102.85,203.65,5,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0143,2025-09-27,services,344,96.82,89.2,7,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0163,2025-09-27,flowers,332,93.06,97.78,4,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0001,2025-09-27,flowers,335,91.8,17.36,5,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0113,2025-09-27,services,298,86.29,182.08,6,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0218,2025-09-27,services,384,86.0,66.59,6,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0068,2025-09-27,services,393,82.36,35.9,5,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0038,2025-09-27,services,377,81.91,115.77,5,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0128,2025-09-27,services,309,81.71,121.05,5,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0118,2025-09-27,flowers,212,81.32,121.94,4,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0016,2025-09-27,flowers,106,72.58,18.32,4,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0063,2025-09-27,grocery,199,69.71,68.27,9,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0213,2025-09-27,grocery,113,69.18,49.02,9,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0238,2025-09-27,flowers,322,67.52,92.01,3,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0053,2025-09-27,services,359,66.44,69.38,5,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0228,2025-09-27,grocery,340,62.11,77.97,8,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0033,2025-09-27,grocery,122,58.17,65.04,8,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0158,2025-09-27,services,127,56.47,96.78,4,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0138,2025-09-27,grocery,97,55.03,43.84,7,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0093,2025-09-27,grocery,97,53.22,67.37,7,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0031,2025-09-27,flowers,340,52.02,0.0,3,Observe,Prior value is zero; review activation or reactivation,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0196,2025-09-27,flowers,375,48.6,37.9,3,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0176,2025-09-27,services,248,47.01,21.3,4,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0003,2025-09-27,grocery,349,45.9,44.13,6,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0078,2025-09-27,grocery,318,44.03,23.22,6,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0183,2025-09-27,grocery,152,42.78,31.46,6,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0236,2025-09-27,services,293,41.45,25.38,3,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0153,2025-09-27,grocery,246,40.3,7.8,5,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0166,2025-09-27,flowers,244,40.1,0.0,2,Observe,Prior value is zero; review activation or reactivation,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0198,2025-09-27,grocery,217,39.51,54.68,5,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0048,2025-09-27,grocery,198,38.64,24.74,5,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0221,2025-09-27,services,215,37.78,22.57,3,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0106,2025-09-27,flowers,162,35.02,14.13,2,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0108,2025-09-27,grocery,367,34.82,35.47,5,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0168,2025-09-27,grocery,249,30.84,43.33,4,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0041,2025-09-27,services,289,29.27,25.29,2,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0011,2025-09-27,services,63,28.76,10.95,2,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0123,2025-09-27,grocery,120,27.87,38.21,4,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0018,2025-09-27,grocery,156,27.76,51.41,4,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0071,2025-09-27,services,356,24.76,0.0,2,Observe,Prior value is zero; review activation or reactivation,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0056,2025-09-27,services,356,23.52,11.57,2,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0206,2025-09-27,services,68,22.36,0.0,2,Observe,Prior value is zero; review activation or reactivation,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0036,2025-09-27,grocery,130,20.12,0.0,3,Observe,Prior value is zero; review activation or reactivation,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0061,2025-09-27,flowers,315,18.86,32.12,1,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0186,2025-09-27,grocery,283,18.24,19.54,3,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0211,2025-09-27,flowers,151,18.03,34.44,1,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0081,2025-09-27,grocery,301,17.79,0.0,3,Observe,Prior value is zero; review activation or reactivation,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0021,2025-09-27,grocery,89,17.31,6.31,3,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0111,2025-09-27,grocery,85,16.96,12.78,3,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0136,2025-09-27,flowers,67,15.59,29.44,1,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0226,2025-09-27,flowers,153,14.81,0.0,1,Observe,Prior value is zero; review activation or reactivation,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0171,2025-09-27,grocery,106,14.11,11.54,2,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0201,2025-09-27,grocery,364,14.09,16.72,2,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0216,2025-09-27,grocery,359,13.05,7.14,2,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0231,2025-09-27,grocery,302,13.0,12.1,2,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0086,2025-09-27,services,394,12.21,23.24,1,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0096,2025-09-27,grocery,63,11.61,0.0,2,Observe,Prior value is zero; review activation or reactivation,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0051,2025-09-27,grocery,232,11.47,18.27,2,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0066,2025-09-27,grocery,270,6.47,0.0,1,Observe,Prior value is zero; review activation or reactivation,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0006,2025-09-27,grocery,416,5.55,5.51,1,Observe,No actionable rule matched; manual review required,Review account history; do not trigger automated incentives,Unassigned,Not started
-demo_0026,2025-09-27,services,240,0.0,0.0,0,Observe,Prior value is zero; review activation or reactivation,Review account history; do not trigger automated incentives,Unassigned,Not started
+account_id,as_of,category,channel,tenure_days,value,previous_value,change,active_days,stage,value_tier,reason,first_observed_spend,days_since_first,days_since_last,motion,reference_value,suggested_action,owner,status,rank
+ADV-0423,2025-12-26,Services,Paid acquisition,50,272.18,,,5,Observe,Lower,Comparable prior window unavailable.,2025-11-07,49,20,Activation,272.18,"Review first-campaign setup, reporting comprehension and early results; agree the next campaign milestone.",Unassigned,Not started,1
+ADV-0425,2025-12-26,Flowers,Paid acquisition,50,270.61,,,5,Observe,Lower,Comparable prior window unavailable.,2025-11-08,48,19,Activation,270.61,"Review first-campaign setup, reporting comprehension and early results; agree the next campaign milestone.",Unassigned,Not started,2
+ADV-0426,2025-12-26,Services,Paid acquisition,58,237.99,,,5,Observe,Lower,Comparable prior window unavailable.,2025-11-04,52,24,Activation,237.99,"Review first-campaign setup, reporting comprehension and early results; agree the next campaign milestone.",Unassigned,Not started,3
+ADV-0440,2025-12-26,Flowers,Paid acquisition,57,167.42,,,3,Observe,Lower,Comparable prior window unavailable.,2025-11-02,54,27,Activation,167.42,"Review first-campaign setup, reporting comprehension and early results; agree the next campaign milestone.",Unassigned,Not started,4
+ADV-0441,2025-12-26,Services,Paid acquisition,54,128.29,,,4,Observe,Lower,Comparable prior window unavailable.,2025-11-05,51,22,Activation,128.29,"Review first-campaign setup, reporting comprehension and early results; agree the next campaign milestone.",Unassigned,Not started,5
+ADV-0445,2025-12-26,Grocery,Paid acquisition,52,114.46,,,6,Observe,Lower,Comparable prior window unavailable.,2025-11-10,46,19,Activation,114.46,"Review first-campaign setup, reporting comprehension and early results; agree the next campaign milestone.",Unassigned,Not started,6
+ADV-0422,2025-12-26,Flowers,Paid acquisition,55,101.41,,,2,Observe,Lower,Comparable prior window unavailable.,2025-11-01,55,26,Activation,101.41,"Review first-campaign setup, reporting comprehension and early results; agree the next campaign milestone.",Unassigned,Not started,7
+ADV-0443,2025-12-26,Flowers,Paid acquisition,55,83.75,,,2,Observe,Lower,Comparable prior window unavailable.,2025-11-02,54,26,Activation,83.75,"Review first-campaign setup, reporting comprehension and early results; agree the next campaign milestone.",Unassigned,Not started,8
+ADV-0428,2025-12-26,Flowers,Paid acquisition,56,69.73,,,1,Observe,Lower,Comparable prior window unavailable.,2025-11-04,52,26,Activation,69.73,"Review first-campaign setup, reporting comprehension and early results; agree the next campaign milestone.",Unassigned,Not started,9
+ADV-0439,2025-12-26,Grocery,Partner referral,56,68.42,,,3,Observe,Lower,Comparable prior window unavailable.,2025-11-01,55,26,Activation,68.42,"Review first-campaign setup, reporting comprehension and early results; agree the next campaign milestone.",Unassigned,Not started,10
+ADV-0433,2025-12-26,Grocery,Paid acquisition,54,67.53,,,3,Observe,Lower,Comparable prior window unavailable.,2025-11-02,54,25,Activation,67.53,"Review first-campaign setup, reporting comprehension and early results; agree the next campaign milestone.",Unassigned,Not started,11
+ADV-0438,2025-12-26,Services,Partner referral,56,65.25,,,2,Observe,Lower,Comparable prior window unavailable.,2025-11-01,55,26,Activation,65.25,"Review first-campaign setup, reporting comprehension and early results; agree the next campaign milestone.",Unassigned,Not started,12
+ADV-0436,2025-12-26,Grocery,Paid acquisition,56,23.37,,,1,Observe,Lower,Comparable prior window unavailable.,2025-11-01,55,26,Activation,23.37,"Review first-campaign setup, reporting comprehension and early results; agree the next campaign milestone.",Unassigned,Not started,13
+ADV-0427,2025-12-26,Grocery,Paid acquisition,55,19.29,,,1,Observe,Lower,Comparable prior window unavailable.,2025-11-01,55,29,Activation,19.29,"Review first-campaign setup, reporting comprehension and early results; agree the next campaign milestone.",Unassigned,Not started,14
+ADV-0015,2025-12-26,Services,Established,602,96.38,2722.21,-0.9646,2,At-risk,Lower,Spend dropped more than 50% with fewer than 5 positive-spend days.,2025-01-03,357,4,Retention,2722.21,"Review performance, seasonality, campaign completion and service history before recommending an incentive.",Unassigned,Not started,15
+ADV-0008,2025-12-26,Flowers,Established,489,189.53,2438.35,-0.9223,3,At-risk,Lower,Spend dropped more than 50% with fewer than 5 positive-spend days.,2025-01-01,359,7,Retention,2438.35,"Review performance, seasonality, campaign completion and service history before recommending an incentive.",Unassigned,Not started,16
+ADV-0068,2025-12-26,Flowers,Established,629,159.2,789.14,-0.7983,4,At-risk,Lower,Spend dropped more than 50% with fewer than 5 positive-spend days.,2025-04-05,265,3,Retention,789.14,"Review performance, seasonality, campaign completion and service history before recommending an incentive.",Unassigned,Not started,17
+ADV-0317,2025-12-26,Flowers,Paid acquisition,171,35.45,575.47,-0.9384,2,At-risk,Lower,Spend dropped more than 50% with fewer than 5 positive-spend days.,2025-07-12,167,24,Retention,575.47,"Review performance, seasonality, campaign completion and service history before recommending an incentive.",Unassigned,Not started,18
+ADV-0160,2025-12-26,Grocery,Partner referral,328,65.98,560.21,-0.8822,4,At-risk,Lower,Spend dropped more than 50% with fewer than 5 positive-spend days.,2025-02-07,322,8,Retention,560.21,"Review performance, seasonality, campaign completion and service history before recommending an incentive.",Unassigned,Not started,19
+ADV-0202,2025-12-26,Grocery,Partner referral,299,45.64,541.33,-0.9157,4,At-risk,Lower,Spend dropped more than 50% with fewer than 5 positive-spend days.,2025-03-03,298,8,Retention,541.33,"Review performance, seasonality, campaign completion and service history before recommending an incentive.",Unassigned,Not started,20
+ADV-0250,2025-12-26,Grocery,Partner referral,239,57.97,522.22,-0.889,4,At-risk,Lower,Spend dropped more than 50% with fewer than 5 positive-spend days.,2025-05-03,237,2,Retention,522.22,"Review performance, seasonality, campaign completion and service history before recommending an incentive.",Unassigned,Not started,21
+ADV-0240,2025-12-26,Services,Partner referral,265,13.32,419.18,-0.9682,1,At-risk,Lower,Spend dropped more than 50% with fewer than 5 positive-spend days.,2025-04-10,260,26,Retention,419.18,"Review performance, seasonality, campaign completion and service history before recommending an incentive.",Unassigned,Not started,22
+ADV-0153,2025-12-26,Services,Partner referral,326,11.25,265.54,-0.9576,1,At-risk,Lower,Spend dropped more than 50% with fewer than 5 positive-spend days.,2025-02-08,321,29,Retention,265.54,"Review performance, seasonality, campaign completion and service history before recommending an incentive.",Unassigned,Not started,23
+ADV-0369,2025-12-26,Services,Paid acquisition,115,10.78,251.78,-0.9572,1,At-risk,Lower,Spend dropped more than 50% with fewer than 5 positive-spend days.,2025-09-07,110,25,Retention,251.78,"Review performance, seasonality, campaign completion and service history before recommending an incentive.",Unassigned,Not started,24
+ADV-0136,2025-12-26,Grocery,Partner referral,353,23.82,219.35,-0.8914,4,At-risk,Lower,Spend dropped more than 50% with fewer than 5 positive-spend days.,2025-01-13,347,0,Retention,219.35,"Review performance, seasonality, campaign completion and service history before recommending an incentive.",Unassigned,Not started,25
+ADV-0148,2025-12-26,Grocery,Partner referral,357,7.25,142.82,-0.9492,1,At-risk,Lower,Spend dropped more than 50% with fewer than 5 positive-spend days.,2025-01-06,354,29,Retention,142.82,"Review performance, seasonality, campaign completion and service history before recommending an incentive.",Unassigned,Not started,26
+ADV-0201,2025-12-26,Services,Partner referral,292,16.53,108.48,-0.8476,1,At-risk,Lower,Spend dropped more than 50% with fewer than 5 positive-spend days.,2025-03-09,292,28,Retention,108.48,"Review performance, seasonality, campaign completion and service history before recommending an incentive.",Unassigned,Not started,27
+ADV-0146,2025-12-26,Flowers,Partner referral,359,18.87,89.71,-0.7897,1,At-risk,Lower,Spend dropped more than 50% with fewer than 5 positive-spend days.,2025-01-03,357,29,Retention,89.71,"Review performance, seasonality, campaign completion and service history before recommending an incentive.",Unassigned,Not started,28
+ADV-0262,2025-12-26,Grocery,Partner referral,236,9.66,85.21,-0.8866,2,At-risk,Lower,Spend dropped more than 50% with fewer than 5 positive-spend days.,2025-05-09,231,23,Retention,85.21,"Review performance, seasonality, campaign completion and service history before recommending an incentive.",Unassigned,Not started,29

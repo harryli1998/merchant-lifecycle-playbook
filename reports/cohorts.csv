@@ -1,0 +1,143 @@
+cohort,cohort_index,category,channel,first_spenders,eligible,repeaters,rate,censored
+C01,0,All,All,30,30,19,0.6333,0
+C01,0,All,Paid acquisition,10,10,4,0.4,0
+C01,0,All,Partner referral,20,20,15,0.75,0
+C01,0,Flowers,All,10,10,5,0.5,0
+C01,0,Flowers,Paid acquisition,5,5,2,0.4,0
+C01,0,Flowers,Partner referral,5,5,3,0.6,0
+C01,0,Grocery,All,10,10,8,0.8,0
+C01,0,Grocery,Paid acquisition,3,3,1,0.3333,0
+C01,0,Grocery,Partner referral,7,7,7,1.0,0
+C01,0,Services,All,10,10,6,0.6,0
+C01,0,Services,Paid acquisition,2,2,1,0.5,0
+C01,0,Services,Partner referral,8,8,5,0.625,0
+C02,1,All,All,30,30,21,0.7,0
+C02,1,All,Paid acquisition,9,9,3,0.3333,0
+C02,1,All,Partner referral,21,21,18,0.8571,0
+C02,1,Flowers,All,10,10,9,0.9,0
+C02,1,Flowers,Partner referral,10,10,9,0.9,0
+C02,1,Grocery,All,10,10,7,0.7,0
+C02,1,Grocery,Paid acquisition,5,5,2,0.4,0
+C02,1,Grocery,Partner referral,5,5,5,1.0,0
+C02,1,Services,All,10,10,5,0.5,0
+C02,1,Services,Paid acquisition,4,4,1,0.25,0
+C02,1,Services,Partner referral,6,6,4,0.6667,0
+C03,2,All,All,30,30,21,0.7,0
+C03,2,All,Paid acquisition,7,7,3,0.4286,0
+C03,2,All,Partner referral,23,23,18,0.7826,0
+C03,2,Flowers,All,10,10,4,0.4,0
+C03,2,Flowers,Paid acquisition,2,2,1,0.5,0
+C03,2,Flowers,Partner referral,8,8,3,0.375,0
+C03,2,Grocery,All,10,10,8,0.8,0
+C03,2,Grocery,Paid acquisition,3,3,1,0.3333,0
+C03,2,Grocery,Partner referral,7,7,7,1.0,0
+C03,2,Services,All,10,10,9,0.9,0
+C03,2,Services,Paid acquisition,2,2,1,0.5,0
+C03,2,Services,Partner referral,8,8,8,1.0,0
+C04,3,All,All,30,30,26,0.8667,0
+C04,3,All,Paid acquisition,6,6,4,0.6667,0
+C04,3,All,Partner referral,24,24,22,0.9167,0
+C04,3,Flowers,All,10,10,9,0.9,0
+C04,3,Flowers,Paid acquisition,1,1,0,0.0,0
+C04,3,Flowers,Partner referral,9,9,9,1.0,0
+C04,3,Grocery,All,10,10,9,0.9,0
+C04,3,Grocery,Paid acquisition,2,2,2,1.0,0
+C04,3,Grocery,Partner referral,8,8,7,0.875,0
+C04,3,Services,All,10,10,8,0.8,0
+C04,3,Services,Paid acquisition,3,3,2,0.6667,0
+C04,3,Services,Partner referral,7,7,6,0.8571,0
+C05,4,All,All,30,30,26,0.8667,0
+C05,4,All,Paid acquisition,5,5,4,0.8,0
+C05,4,All,Partner referral,25,25,22,0.88,0
+C05,4,Flowers,All,10,10,8,0.8,0
+C05,4,Flowers,Partner referral,10,10,8,0.8,0
+C05,4,Grocery,All,10,10,9,0.9,0
+C05,4,Grocery,Paid acquisition,2,2,2,1.0,0
+C05,4,Grocery,Partner referral,8,8,7,0.875,0
+C05,4,Services,All,10,10,9,0.9,0
+C05,4,Services,Paid acquisition,3,3,2,0.6667,0
+C05,4,Services,Partner referral,7,7,7,1.0,0
+C06,5,All,All,30,30,11,0.3667,0
+C06,5,All,Paid acquisition,21,21,2,0.0952,0
+C06,5,All,Partner referral,9,9,9,1.0,0
+C06,5,Flowers,All,10,10,4,0.4,0
+C06,5,Flowers,Paid acquisition,7,7,1,0.1429,0
+C06,5,Flowers,Partner referral,3,3,3,1.0,0
+C06,5,Grocery,All,10,10,4,0.4,0
+C06,5,Grocery,Paid acquisition,6,6,0,0.0,0
+C06,5,Grocery,Partner referral,4,4,4,1.0,0
+C06,5,Services,All,10,10,3,0.3,0
+C06,5,Services,Paid acquisition,8,8,1,0.125,0
+C06,5,Services,Partner referral,2,2,2,1.0,0
+C07,6,All,All,30,30,14,0.4667,0
+C07,6,All,Paid acquisition,23,23,8,0.3478,0
+C07,6,All,Partner referral,7,7,6,0.8571,0
+C07,6,Flowers,All,10,10,4,0.4,0
+C07,6,Flowers,Paid acquisition,7,7,2,0.2857,0
+C07,6,Flowers,Partner referral,3,3,2,0.6667,0
+C07,6,Grocery,All,10,10,6,0.6,0
+C07,6,Grocery,Paid acquisition,7,7,3,0.4286,0
+C07,6,Grocery,Partner referral,3,3,3,1.0,0
+C07,6,Services,All,10,10,4,0.4,0
+C07,6,Services,Paid acquisition,9,9,3,0.3333,0
+C07,6,Services,Partner referral,1,1,1,1.0,0
+C08,7,All,All,30,30,17,0.5667,0
+C08,7,All,Paid acquisition,19,19,8,0.4211,0
+C08,7,All,Partner referral,11,11,9,0.8182,0
+C08,7,Flowers,All,10,10,5,0.5,0
+C08,7,Flowers,Paid acquisition,8,8,3,0.375,0
+C08,7,Flowers,Partner referral,2,2,2,1.0,0
+C08,7,Grocery,All,10,10,5,0.5,0
+C08,7,Grocery,Paid acquisition,5,5,2,0.4,0
+C08,7,Grocery,Partner referral,5,5,3,0.6,0
+C08,7,Services,All,10,10,7,0.7,0
+C08,7,Services,Paid acquisition,6,6,3,0.5,0
+C08,7,Services,Partner referral,4,4,4,1.0,0
+C09,8,All,All,30,30,16,0.5333,0
+C09,8,All,Paid acquisition,20,20,7,0.35,0
+C09,8,All,Partner referral,10,10,9,0.9,0
+C09,8,Flowers,All,10,10,7,0.7,0
+C09,8,Flowers,Paid acquisition,6,6,3,0.5,0
+C09,8,Flowers,Partner referral,4,4,4,1.0,0
+C09,8,Grocery,All,10,10,2,0.2,0
+C09,8,Grocery,Paid acquisition,9,9,1,0.1111,0
+C09,8,Grocery,Partner referral,1,1,1,1.0,0
+C09,8,Services,All,10,10,7,0.7,0
+C09,8,Services,Paid acquisition,5,5,3,0.6,0
+C09,8,Services,Partner referral,5,5,4,0.8,0
+C10,9,All,All,30,30,12,0.4,0
+C10,9,All,Paid acquisition,22,22,7,0.3182,0
+C10,9,All,Partner referral,8,8,5,0.625,0
+C10,9,Flowers,All,10,10,4,0.4,0
+C10,9,Flowers,Paid acquisition,7,7,2,0.2857,0
+C10,9,Flowers,Partner referral,3,3,2,0.6667,0
+C10,9,Grocery,All,10,10,4,0.4,0
+C10,9,Grocery,Paid acquisition,8,8,2,0.25,0
+C10,9,Grocery,Partner referral,2,2,2,1.0,0
+C10,9,Services,All,10,10,4,0.4,0
+C10,9,Services,Paid acquisition,7,7,3,0.4286,0
+C10,9,Services,Partner referral,3,3,1,0.3333,0
+C11,10,All,All,30,0,0,,30
+C11,10,All,Paid acquisition,19,0,0,,19
+C11,10,All,Partner referral,11,0,0,,11
+C11,10,Flowers,All,10,0,0,,10
+C11,10,Flowers,Paid acquisition,7,0,0,,7
+C11,10,Flowers,Partner referral,3,0,0,,3
+C11,10,Grocery,All,10,0,0,,10
+C11,10,Grocery,Paid acquisition,7,0,0,,7
+C11,10,Grocery,Partner referral,3,0,0,,3
+C11,10,Services,All,10,0,0,,10
+C11,10,Services,Paid acquisition,5,0,0,,5
+C11,10,Services,Partner referral,5,0,0,,5
+C12,11,All,All,30,0,0,,30
+C12,11,All,Paid acquisition,18,0,0,,18
+C12,11,All,Partner referral,12,0,0,,12
+C12,11,Flowers,All,10,0,0,,10
+C12,11,Flowers,Paid acquisition,6,0,0,,6
+C12,11,Flowers,Partner referral,4,0,0,,4
+C12,11,Grocery,All,10,0,0,,10
+C12,11,Grocery,Paid acquisition,6,0,0,,6
+C12,11,Grocery,Partner referral,4,0,0,,4
+C12,11,Services,All,10,0,0,,10
+C12,11,Services,Paid acquisition,6,0,0,,6
+C12,11,Services,Partner referral,4,0,0,,4
